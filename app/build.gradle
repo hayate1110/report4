@@ -33,3 +33,11 @@ tasks.named('test') {
     // Use JUnit Platform for unit tests.
     useJUnitPlatform()
 }
+
+sourceCompatibility = 10
+
+jar {
+    manifest {
+        attributes  "Main-Class": "Main2"
+    }
+}
