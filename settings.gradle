@@ -8,3 +8,4 @@
  */
 
 rootProject.name = 'report4'
+include('app')
